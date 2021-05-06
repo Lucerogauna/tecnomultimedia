@@ -5,6 +5,7 @@ background(0);
 }
 
 void draw(){
+  //Triangulo HP
   stroke(10);
   fill(255);
    triangle(400, 236, 290, 450,512, 450);
@@ -15,7 +16,6 @@ strokeWeight(7);
 stroke(255,255,0);
 fill( 255, 255,0);
 strokeWeight(5);
-line(400, 200, 400, 240);
 //azulline
 strokeWeight(5);
 stroke(0,0,255);
@@ -69,34 +69,31 @@ line(480, 380, 600, 300);
     fill(0,150,210);
   circle (325,575,100);
   //Minis!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+  //amarillo
   fill( 255, 255,0);
-  circle(430,210,30);
+  circle(400,220,30);
    //circulo cyan
-fill(0,255,163);
-  circle(150,400,20);
+ fill(0,255,255);
+  circle(180,470,30);
   //circulo magenta 
   fill(255,0,255);
-  circle (620,470,24);
-  //Colores Primarios
-  //circulo azul 
-  fill(0,0,255);
-  circle (400,730,20);
-  //circulo verde 
-  fill(0,255,0);
-  circle (270,290,30);
+  circle (620,470,30);
   //colores terciarios
   //color azulvioleta
    fill(132,0,255);
-  circle (475,505, 22);
+  circle (475,505, 20);
   //Color rojonaranjo
    fill(255,90,4);
-  circle (590,210,30);
+  circle (590,210,20);
   //amarillo verde
    fill(210,255,0);
-  circle (244,150,30);
+  circle (220,210,20);
     //color violetarojo
   fill(240,0,120);
-  circle (530,340,25);
+  circle (530,310,20);
+     //color verdecian
+  fill(0,255,163);
+    circle (270,310,20);
   //Color azulcian
     fill(0,150,210);
   circle (320,500,20);
